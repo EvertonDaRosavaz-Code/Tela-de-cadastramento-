@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/4576/4576642.png" type="image/x-icon">
+    <title>Tela de login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        section{
+            border-radius: 50px;
+            border: solid;
+            width:1000px;
+            display: flex;
+            height: 500px;
+
+        }
+
+        textarea:focus, input:focus{
+            box-shadow: 0,0,0,0;
+            outline: 0;
+        }
+        .conteiner_Login{
+            background-image: url(https://i.pinimg.com/236x/de/c9/e5/dec9e51655cfec33a0138aebd63a6dd7.jpg);
+            border-radius:46px ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.6;
+        }
+
+        .Login button{
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: transparent;
+            cursor: pointer;
+            
+        }
+        .Login button:hover{
+            color: rgb(126, 122, 122);
+            width: 250px;
+            height: 55px;
+            border-color: black;
+            font-size: 15px;
+        }
+        
+        .conteiner_cadastro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .estradas_de_valores{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top:20px;
+        }
+    
+        input{
+            width: 250px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        .optio_login{
+            display: flex;
+            margin-top: 50px;
+            gap:20px;
+        }
+
+        .optio_login button{
+            width: 40px;
+            height:40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius:50px;
+            cursor: pointer;
+        }
+        .optio_login button:hover{
+            opacity: 0.6;
+        }
+        img{
+            width: 40px;
+            height:40px;
+            border-radius:50px;
+        }
+
+        h1{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 30px;
+        }
+        
+        .estradas_de_valores button{
+            height: 34px;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color:transparent;
+            border-color: black;
+        }
+
+        .estradas_de_valores button:hover{
+            background-color: rgba(0, 0, 0, 0.848);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <main>
+        <section>
+
+            <div class="conteiner_Login">
+                <div class="Login">
+                    <a href="####">
+                        <button>Login</button>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="conteiner_cadastro">
+                <h1>Create Account for DEVs</h1>
+                
+                <div class="estradas_de_valores">
+                    <input type="email" name="" id="email" placeholder="E-mail">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" name="" id="" placeholder="Confirmar senha">
+                    <button>Crate</button>
+                </div>
+
+                <div class="optio_login">
+                    <button><img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="Facebook"></button>
+                    <button><img src="https://cdn-icons-png.flaticon.com/512/3536/3536569.png" alt="Linkedin"></button>
+                    <button><img src="https://cdn-icons-png.flaticon.com/512/2175/2175377.png" alt="GitHub"></button>
+                    <button><img src="https://cdn-icons-png.flaticon.com/512/2991/2991147.png" alt="Google"></button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+</body>
+</html>
